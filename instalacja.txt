@@ -1,0 +1,22 @@
+SEOAnalityk wersja 1.0.0
+
+Instalacja:
+
+1) tworzymy bazê SQL
+2) kopiujemy zawartoœæ folderu "skrypt" na serwer
+3) ustawiamy uprawnienia 666 (odczyt i zapis dla wszystkich) dla folderu "generated" oraz pliku "baza.php".
+4) dodajemy do CRON plik "site.php" np. w ten sposób (zamieniaj¹c "domena.pl" na adres, pod którym instalujemy skrypt):
+wget -O /dev/null http://domena.pl/site.php 2>&1
+Skrypt uruchamiamy w CRON co najmniej raz dziennie, ale w przypadku du¿ej ilosci stron i obci¹¿onego serwera mozna go uruchamiaæ np. co piêæ minut.
+5) uruchamiamy skrypt poprzez wpisanie adresu skryptu w przegl¹darce
+6) na ¿¹danie podajemy dane stworzonej bazy
+
+Pocz¹tkowo istnieje jeden u¿ytkownik. Dane do logowania:
+login: seoanalityk
+has³o: seoanalityk
+
+Ze wzglêdów bezpieczeñstwa sugerujê za³o¿enie w³asnego u¿ytkownika, a nastêpnie usuniêcie u¿ytkownika "seoanalityk".
+
+Pytania i zg³aszanie problemów:
+
+http://seo.poznan.pl/forum7-seoanalityk.html
